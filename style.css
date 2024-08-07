@@ -1,0 +1,458 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 550px;
+    width: 900px;
+    margin: 30px auto;
+    padding: 50px 50px;
+    display: grid;
+    background: rgb(10, 50, 241);
+    background: linear-gradient(187deg, rgba(10, 50, 241, 1) 0%, rgba(140, 20, 224, 1) 50%, rgba(158, 23, 153, 1) 100%);
+    grid-template-columns: 1fr 1fr 1fr;
+
+    gap: 20px;
+
+
+}
+
+.box-main {
+    padding: 10px;
+    background-color: white;
+    display: grid;
+}
+
+.box1 {
+    background-color: rgb(185, 182, 182);
+    display: grid;
+    padding: 10px 10px;
+    height: 90px;
+    gap: 10px;
+    grid-template-areas:
+        "box1-1 box1-2 box1-3"
+
+    ;
+    margin-top: 20px;
+
+
+
+
+
+}
+
+.box1-1 {
+    background-color: white;
+    grid-area: box1-1;
+
+}
+
+.box1-2 {
+    background-color: white;
+    grid-area: box1-2;
+}
+
+.box1-3 {
+    background-color: white;
+    grid-area: box1-3;
+}
+
+.box2 {
+    background-color: rgb(185, 182, 182);
+    display: grid;
+
+    padding: 10px 10px;
+    grid-template-areas:
+        "   box2-1 box2-2 "
+        "   box2-1 box2-3 "
+
+
+
+    ;
+    gap: 10px;
+
+
+
+
+
+}
+
+.box2-1 {
+    background-color: white;
+    grid-area: box2-1;
+}
+
+.box2-2 {
+    background-color: white;
+    grid-area: box2-2;
+
+}
+
+.box2-3 {
+    background-color: white;
+    grid-area: box2-3;
+}
+
+.box3 {
+    background-color: rgb(185, 182, 182);
+    grid-template-areas: box3;
+    gap: 10px;
+    display: grid;
+    padding: 10px 10px;
+    grid-template-areas:
+        "box3-1 box3-2 box3-3"
+        "box3-4 box3-5 box3-6"
+
+
+    ;
+
+}
+
+.box3-1 {
+    background-color: white;
+    grid-area: box3-1;
+}
+
+.box3-2 {
+    background-color: white;
+    grid-area: box3-2;
+}
+
+.box3-3 {
+    background-color: white;
+    grid-area: box3-3;
+}
+
+.box3-4 {
+    background-color: white;
+    grid-area: box3-4;
+}
+
+.box3-5 {
+    background-color: white;
+    grid-area: box3-5;
+}
+
+.box3-6 {
+    background-color: white;
+    grid-area: box3-6;
+}
+
+
+
+
+
+
+
+.box4 {
+
+
+    background-color: rgb(185, 182, 182);
+
+    gap: 10px;
+    display: grid;
+    padding: 10px 10px;
+
+    grid-template-areas:
+        "box4-1 box4-2 box4-3"
+        "box4-4 box4-2 box4-6"
+        "box4-4 box4-5 box4-6"
+
+
+
+    ;
+
+}
+
+
+.box4-1 {
+    background-color: white;
+    grid-area: box4-1;
+
+}
+
+.box4-2 {
+    background-color: white;
+    grid-area: box4-2;
+}
+
+.box4-3 {
+    background-color: white;
+    grid-area: box4-3;
+}
+
+.box4-4 {
+    background-color: white;
+    grid-area: box4-4;
+
+}
+
+.box4-5 {
+    background-color: white;
+    grid-area: box4-5;
+}
+
+.box4-6 {
+    background-color: white;
+    grid-area: box4-6;
+}
+
+
+
+.box5 {
+
+    background-color: rgb(185, 182, 182);
+    gap: 10px;
+    display: grid;
+    padding: 10px 10px;
+    grid-template-areas:
+        "box5-1  box5-1  box5-1 box5-2 box5-2 box5-2"
+        "box5-3 box5-3  box5-4 box5-4 box5-5 box5-5"
+    ;
+}
+
+.box5-1 {
+    background-color: white;
+    grid-area: box5-1;
+}
+
+.box5-2 {
+    background-color: white;
+    grid-area: box5-2;
+}
+
+.box5-3 {
+    background-color: white;
+    grid-area: box5-3;
+}
+
+.box5-4 {
+    background-color: white;
+    grid-area: box5-4;
+}
+
+.box5-5 {
+    background-color: white;
+    grid-area: box5-5;
+}
+
+
+
+.box6 {
+    background-color: rgb(185, 182, 182);
+    gap: 10px;
+    display: grid;
+    padding: 10px 10px;
+    grid-template-areas:
+        "box6-1 box6-1 box6-2"
+        "box6-1 box6-1 box6-2"
+        "box6-1 box6-1 box6-3"
+        "box6-1 box6-1 box6-3"
+        "box6-1 box6-1 box6-3"
+        "box6-1 box6-1 box6-3"
+        "box6-4 box6-5 box6-6"
+        "box6-4 box6-5 box6-6"
+
+    ;
+
+}
+
+.box6-1 {
+    background-color: white;
+    grid-area: box6-1;
+}
+
+.box6-2 {
+    background-color: white;
+    grid-area: box6-2;
+}
+
+.box6-3 {
+    background-color: white;
+    grid-area: box6-3;
+}
+
+.box6-4 {
+    background-color: white;
+    grid-area: box6-4;
+}
+
+.box6-5 {
+    background-color: white;
+    grid-area: box6-5;
+}
+
+.box6-6 {
+    background-color: white;
+    grid-area: box6-6;
+}
+
+
+
+.box7 {
+    background-color: rgb(185, 182, 182);
+    gap: 10px;
+    display: grid;
+    padding: 10px 10px;
+    grid-template-areas:
+        "box7-1 box7-1 box7-2 box7-2"
+        "box7-1 box7-1 box7-2 box7-2"
+        "box7-1 box7-1 box7-2 box7-2"
+
+        "box7-1 box7-1 box7-3 box7-4"
+        "box7-1 box7-1 box7-3 box7-4"
+        "box7-1 box7-1 box7-5 box7-4"
+
+        "box7-1 box7-1 box7-5 box7-4"
+
+}
+
+.box7-1 {
+    background-color: white;
+    grid-area: box7-1;
+}
+
+.box7-2 {
+    background-color: white;
+    grid-area: box7-2;
+}
+
+.box7-3 {
+    background-color: white;
+    grid-area: box7-3;
+}
+
+.box7-4 {
+    background-color: white;
+    grid-area: box7-4;
+}
+
+.box7-5 {
+    background-color: white;
+    grid-area: box7-5;
+}
+
+
+
+
+.box8 {
+    background-color: rgb(185, 182, 182);
+    gap: 10px;
+    display: grid;
+    padding: 10px 10px;
+    grid-template-areas:
+        "box8-1 box8-1 box8-1 box8-2 box8-2 box8-3"
+        "box8-1 box8-1 box8-1 box8-2 box8-2 box8-3"
+        "box8-1 box8-1 box8-1 box8-2 box8-2 box8-4"
+        "box8-1 box8-1 box8-1 box8-5 box8-6 box8-7"
+        "box8-1 box8-1 box8-1 box8-5 box8-6 box8-7"
+}
+
+.box8-1 {
+    background-color: white;
+    grid-area: box8-1;
+}
+
+.box8-2 {
+    background-color: white;
+    grid-area: box8-2;
+}
+
+.box8-3 {
+    background-color: white;
+    grid-area: box8-3;
+}
+
+.box8-4 {
+    background-color: white;
+    grid-area: box8-4;
+}
+
+.box8-5 {
+    background-color: white;
+    grid-area: box8-5;
+}
+
+.box8-6 {
+    background-color: white;
+    grid-area: box8-6;
+}
+
+.box8-7 {
+    background-color: white;
+    grid-area: box8-7;
+}
+
+
+.box9 {
+    background-color: rgb(185, 182, 182);
+    gap: 10px;
+    display: grid;
+    padding: 10px 10px;
+    grid-template-areas:
+        /*"box9-1 box9-2 box9-3 box9-4 "
+    "box9-5 box9-5 box9-6 box9-6"
+    "box9-5 box9-5 box9-6 box9-6"
+    "box9-7 box9-8 box9-9 box9-10"
+
+    ; */
+        "box9-1 box9-1 box9-1 box9-1 box9-2 box9-2 box9-2 box9-2 box9-3 box9-3 box9-3 box9-4 box9-4 box9-4  box9-4 box9-4"
+        "box9-5 box9-5 box9-5 box9-5 box9-5 box9-5 box9-5 box9-5 box9-6 box9-6 box9-6 box9-6 box9-6 box9-6 box9-6 box9-6"
+        "box9-5 box9-5 box9-5 box9-5 box9-5 box9-5 box9-5 box9-5 box9-6 box9-6 box9-6 box9-6 box9-6 box9-6 box9-6 box9-6"
+
+        "box9-7 box9-7 box9-7 box9-7 box9-8 box9-8 box9-8 box9-8 box9-9 box9-9 box9-9 box9-10 box9-10 box9-10 box9-10 box9-10"
+
+    ;
+}
+
+.box9-1 {
+    background-color: white;
+    grid-area: box9-1;
+}
+
+.box9-2 {
+    background-color: white;
+    grid-area: box9-2;
+}
+
+.box9-3 {
+    background-color: white;
+    grid-area: box9-3;
+}
+
+.box9-4 {
+    background-color: white;
+    grid-area: box9-4;
+}
+
+.box9-5 {
+    background-color: white;
+    grid-area: box9-5;
+}
+
+.box9-6 {
+    background-color: white;
+    grid-area: box9-6;
+}
+
+.box9-7 {
+    background-color: white;
+    grid-area: box9-7;
+}
+
+.box9-8 {
+    background-color: white;
+    grid-area: box9-8;
+}
+
+.box9-9 {
+    background-color: white;
+    grid-area: box9-9;
+}
+
+.box9-10 {
+    background-color: white;
+    grid-area: box9-10;
+}
